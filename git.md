@@ -1,6 +1,6 @@
 # O que é o GIT?
 
-* Sistema de controle de versão distribuido
+ Sistema de controle de versão distribuido
 * Open-source
 * Pontos na história: commit (viagem no tempo)
     * Histórico de alterações no código
