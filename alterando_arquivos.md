@@ -19,6 +19,6 @@
 
 * **git commit -m 'first commit'**
 
-## Verificando os pontos da historia criado **
+## Verificando os pontos da historia criado 
 
 * **git log**
