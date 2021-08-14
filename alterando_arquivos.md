@@ -19,6 +19,14 @@
 
 * **git commit -m 'first commit'**
 
-## Verificando os pontos da historia criado 
+## Verificando os pontos da historia criado
 
 * **git log**
+
+## Como verificar modificações no **working directory** com o git diff
+
+* **git diff**
+
+## Como verificar modificações na **stage area** com o git diff --staged
+
+* **git diff --staged**
