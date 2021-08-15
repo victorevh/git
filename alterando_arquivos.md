@@ -34,4 +34,4 @@
 ## Como deletar arquivos no git com o remove
 
 * **git rm file1.txt**  
-* Após remover o arquivo, você deve commitar a alteração 
+*Após remover o arquivo, você deve commitar a alteração 
