@@ -48,3 +48,7 @@
 * **git mv README.md sub/README.md**
 * Após mover o arquivo você deve commitar a alteração 
 * Ao mover o arquivo diretamente pelo git, você pula a etapa de adicionar o arquivo para a stage area.
+
+## Para desfazer modificações de arquivos ainda não comittados você pode usar o restore
+
+* **git restore 2_stage_area.md**
