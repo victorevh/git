@@ -35,10 +35,16 @@
 
 * **git rm file1.txt**  
 * Após remover o arquivo, você deve commitar a alteração 
-* Ao remover o arquivo diretamente pelo git, você pula a etapa de enviar o arquivo deletado para a stage área.
+* Ao remover o arquivo diretamente pelo git, você pula a etapa de adicionar o arquivo deletado para a stage área.
 
 ## Como renomear arquivos no git com o move
 
 * **git mv repository_local.md 1-repository_local.md**
 * Após renomear o arquivo você deve commitar a alteração
-* Ao renomear o arquivo diretamente pelo git, você pula a etapa de enviar o arquivo deletado para a stage área 
+* Ao renomear o arquivo diretamente pelo git, você pula a etapa de adicionar o arquivo deletado para a stage área 
+
+## Movendo arquivos no git com o move
+
+* **git mv README.md sub/README.md**
+* Após mover o arquivo você deve commitar a alteração 
+* Ao mover o arquivo diretamente pelo git, você pula a etapa de adicionar o arquivo para a stage area.
