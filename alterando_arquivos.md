@@ -79,4 +79,4 @@
 * Dentro do arquivo 
 * **linha 1 node_module/**
 * **linha 2 .DS_Store**
-* Caso o arquivo que você queira ignorar já esteja sendo rastreado, você pode remover o rastreamento com o comando **git rm -r --cached .** 
+* Caso o arquivo que você queira ignorar já esteja sendo rastreado, você pode remover o rastreamento de todos os arquivos com o comando **git rm -r --cached .** e readicionar todos arquivos com o **git add .** quando você for commitar a alteração, observe que o diretorio inserido dentro do **.gitignore** será ignorado
