@@ -24,10 +24,3 @@
 * **git clean -n** para ver o que o comando vai fazer
 * **git clean -f** para forçar a remover os arquivos **permanentemente**
 
-## Como reverter mutiplos arquivos, voltar a um ponto da historia e criar um novo commit com o git revert.
-
-* o primeiro passo é o working tree limpo
-* **git revert HEAD~5** 
-* vai trazer os arquivos desse commit especifico
-* você também pode usar o **git log --oneline** e copiar o hash espeficico 
-* **git revert 7sfds**
