@@ -22,7 +22,7 @@
 ## Commitando um arquivo já rastreado
 
 * Quando você modificar um arquivo já rastrado, você pode utilizar o comando -a para passar do working directory e stage area para Repository local
-* **git commit -am "modify index"
+* **git commit -am "modify index"**
 
 ## Verificando os pontos da historia criado
 
