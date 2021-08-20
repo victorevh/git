@@ -27,6 +27,10 @@
 
 * **git diff**
 
+## Como verificar quais palavras exatamente foram modificadas com o git diff --color-words
+
+* **git diff --color-words**
+
 ## Como verificar modificações na **stage area** com o git diff --staged
 
 * **git diff --staged**
