@@ -56,6 +56,10 @@
 * Após remover o arquivo, você deve commitar a alteração 
 * Ao remover o arquivo diretamente pelo git, você pula a etapa de adicionar o arquivo deletado para a stage área.
 
+## Como remover o rastreamento de um arquivo com o git remove
+
+* **git rm -r --cached .DS_Store** ou **git rm -r --cached .** para remover o rastreamento de todos os arquivos
+
 ## Como renomear arquivos no git com o move
 
 * **git mv repository_local.md 1-repository_local.md**
@@ -67,3 +71,12 @@
 * **git mv README.md sub/README.md**
 * Após mover o arquivo você deve commitar a alteração 
 * Ao mover o arquivo diretamente pelo git, você pula a etapa de adicionar o arquivo para a stage area.
+
+## Ignorando arquivos que não precisam estar dentro dos meus pontos de historia com o .gitignore
+
+* Você pode criar um arquivo de texto com o nome de .gitignore e adicionar o diretorio dos arquivos a serem ignorados dentro do .gitignore
+* Arquivo **.gitignore**
+* Dentro do arquivo 
+* **linha 1 node_module/**
+* **linha 2 .DS_Store**
+* Caso o arquivo que você queira ignorar já esteja sendo rastreado, você pode remover o rastreamento com o comando **git rm -r --cached .** 
