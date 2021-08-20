@@ -40,6 +40,12 @@
 
 * **git diff --staged**
 
+## Como verificar modificações realizadas de um commit para o outro com o nº do hash
+
+* **git show 83d7c84e3401**
+* * Para verificar quais palavras exatamente foram modificadas, você também pode utilizar o --color-words
+* **git show 83d7c84e3401 --color-words**
+
 ## Como deletar arquivos no git com o remove
 
 * **git rm file1.txt**  
