@@ -43,8 +43,12 @@
 ## Como verificar modificações realizadas de um commit para o outro com o nº do hash
 
 * **git show 83d7c84e3401**
-* * Para verificar quais palavras exatamente foram modificadas, você também pode utilizar o --color-words
+* Para verificar quais palavras exatamente foram modificadas, você também pode utilizar o --color-words
 * **git show 83d7c84e3401 --color-words**
+
+## Como verificar modificações realizadas em um arquivo ou pasta especifica de um commit com o nº do hash
+
+**git show aa69518b72b4d226e9 -- src/views/index.hbs** para verificar um arquivo especifico ou você pode usar o * para verificar todos os arquivos do diretorio
 
 ## Como deletar arquivos no git com o remove
 
