@@ -31,3 +31,12 @@
 * vai trazer os arquivos desse commit especifico
 * você também pode usar o **git log --oneline** e copiar o hash espeficico 
 * **git revert 7sfds**
+
+## Ignorando arquivos que não precisam estar dentro dos meus pontos de historia com o .gitignore
+
+* Você pode criar um arquivo de texto com o nome de .gitignore e adicionar o diretorio dos arquivos a serem ignorados dentro do .gitignore
+* Arquivo **.gitignore**
+* Dentro do arquivo 
+* **linha 1 node_module/**
+* **linha 2 .DS_Store**
+* Caso o arquivo que você queira ignorar já esteja sendo rastreado, você pode remover o rastreamento de todos os arquivos com o comando **git rm -r --cached .** e readicionar todos arquivos com o **git add .** quando você for commitar a alteração, observe que o diretorio inserido dentro do **.gitignore** será ignorado
