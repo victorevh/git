@@ -49,6 +49,13 @@
 
 * Cada nível sobreescreve os valores no nível anterior, ou seja, valores em .git/config prevalecem sobre /etc/gitconfig.
 
+## SSH Keys
+
+* Para obter SSH key vc deve utilizar o comando
+**ssh-keygen -t rsa -b 4096 -C "victor_oliveirasantos@hotmail.com"**
+* Para visualizar o title e a key você pode acessar o diretorio
+**cd .ssh/.id_rsa.pub** e ver o arquivo com o **cat id_rsa.pub**
+
 #### No Windows, o arquivo .gitconfig estará no diretório $HOME que é C:/Users/$USER
 
 * Você pode criar um diretorio com o mkdir, e depois iniciar o diretorio com o comando git init 
