@@ -55,6 +55,9 @@
 **ssh-keygen -t rsa -b 4096 -C "victor_oliveirasantos@hotmail.com"**
 * Para visualizar o title e a key você pode acessar o diretorio
 **cd .ssh/.id_rsa.pub** e ver o arquivo com o **cat id_rsa.pub**
+* Copie o arquivo do **id_rsa.pub** e colar no git hub
+* Após isso você deve inserir o comando **eval `ssh-agent -s`** 
+* em seguita utilize o comando **ssh-add ~/.ssh/id_rsa** para adicionar a identidade
 
 #### No Windows, o arquivo .gitconfig estará no diretório $HOME que é C:/Users/$USER
 
