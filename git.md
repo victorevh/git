@@ -67,3 +67,15 @@
 * Você pode utilizar o comando pwd para ver em qual diretorio você está
 
 ### Para verificar os comandos disponiveis pelo git, basta utilizar o comando git help , caso você deseje ser mais especifico, pode usar o comando diretamente para o conceito, ex: git help log
+
+## Iniciando repositorio git
+
+* Para iniciar um repositorio git, navegue até o diretorio desejado e digite o comando git init
+
+* Para verificar o diretorio você pode utilizar o comando ls -a
+
+* Para verificar todo seu historicos de ações utilize o comando ls -al .git , vale lembrar que caso você apague a pasta invisivel do .git, você perde todo o historico.
+
+## O primeiro Commit
+
+
