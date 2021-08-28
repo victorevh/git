@@ -78,4 +78,23 @@
 
 ## O primeiro Commit
 
+#### Criei um arquivo txt com o editor VIM para exemplo
+* vim file.txt
+#### Para preparar os arquivos do diretorio especifico e adiciona-los à um ponto na historia utilize o comando git add . (o . ponto serve para preparar todos os arquivos do diretorio)
+* git add .
+#### Para adicionar o ponto na historia basta utilizar o comando git commit -m "initial commit" (-m atalho para messeger " Entre aspas a mensagem" )
+* git commit -m "initial commit"
+
+#### Para ver o git log, utilize o comando git log ou git log --oneline
+* git log
+#### Caso tenha varios commits, e queira trazer os 5 ultimos commits basta usar o comando git log -n 5
+* git log -n 5
+#### Caso eu queira um log desde determinada data basta utilizar o comando git log --since=2021-07-10
+* git log --since=2021-07-10
+#### Caso eu queira um log antes de determinada data basta utilizar o comando git log --until=2020-07-10
+* git log --until=2021-07-10
+#### Caso queira um log de determinado autor basta git log --author=Victor
+* git log --author=Victor
+#### Caso eu precise pesquisar algo atraves de uma mensagem posso utilizar o git log --grep "initial commit"
+* git log --grep "initial"
 
