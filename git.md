@@ -20,8 +20,8 @@
 
 ####  Assim que instalar o git, abra o terminal e digite
 
-* $ git config --global usar.name "Seu Nome Completo Aqui Entre Aspas"
-* $ git config --global user.email seuemailaaqui@dominio.com.br
+* **$ git config --global usar.name "Seu Nome Completo Aqui Entre Aspas"**
+* **$ git config --global user.email seuemailaaqui@dominio.com.br**
 
 #### Isso é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar:
 
@@ -31,13 +31,13 @@
 
 #### Você poderá trocar o editor padrão, que é o VIM, por outro, para isso basta:
 
-* git config --global core.editor "code -w"
+* **git config --global core.editor "code -w"**
 
 ## Ver configurações
 
 #### Você poderá verificar suas configurações com o comando abaixo
 
-* git config --list
+* **git config --list**
 
 # Git Config
 
@@ -70,25 +70,25 @@
 
 ## Iniciando repositorio git
 
-* Para iniciar um repositorio git, navegue até o diretorio desejado e digite o comando git init
+* Para iniciar um repositorio git, navegue até o diretorio desejado e digite o comando **git init**
 
-* Para verificar o diretorio você pode utilizar o comando ls -a
+* Para verificar o diretorio você pode utilizar o comando **ls -a**
 
-* Para verificar todo seu historicos de ações utilize o comando ls -al .git , vale lembrar que caso você apague a pasta invisivel do .git, você perde todo o historico.
+* Para verificar todo seu historicos de ações utilize o comando **ls -al .git** , vale lembrar que caso você apague a pasta invisivel do .git, você perde todo o historico.
 
 ## O primeiro Commit
 
 #### Criei um arquivo txt com o editor VIM para exemplo
-* vim file.txt
+* **vim file.txt**
 #### Para preparar os arquivos do diretorio especifico e adiciona-los à um ponto na historia utilize o comando git add . (o . ponto serve para preparar todos os arquivos do diretorio)
-* git add .
+* **git add .**
 #### Para adicionar o ponto na historia basta utilizar o comando git commit -m "initial commit" (-m atalho para messeger " Entre aspas a mensagem" )
-* git commit -m "initial commit"
+*** git commit -m "initial commit"**
 
 #### Para ver o git log, utilize o comando git log ou git log --oneline
-* git log
+* **git log**
 #### Caso tenha varios commits, e queira trazer os 5 ultimos commits basta usar o comando git log -n 5
-* git log -n 5
+* **git log -n 5**
 #### Caso eu queira um log desde determinada data basta utilizar o comando git log --since=2021-07-10
 * **git log --since=2021-07-10**
 #### Caso eu queira um log antes de determinada data basta utilizar o comando git log --until=2020-07-10
