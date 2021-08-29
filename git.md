@@ -90,11 +90,11 @@
 #### Caso tenha varios commits, e queira trazer os 5 ultimos commits basta usar o comando git log -n 5
 * git log -n 5
 #### Caso eu queira um log desde determinada data basta utilizar o comando git log --since=2021-07-10
-* git log --since=2021-07-10
+* **git log --since=2021-07-10**
 #### Caso eu queira um log antes de determinada data basta utilizar o comando git log --until=2020-07-10
-* git log --until=2021-07-10
+* **git log --until=2021-07-10**
 #### Caso queira um log de determinado autor basta git log --author=Victor
-* git log --author=Victor
+* **git log --author=Victor**
 #### Caso eu precise pesquisar algo atraves de uma mensagem posso utilizar o git log --grep "initial commit"
-* git log --grep "initial"
+* **git log --grep "initial"**
 
