@@ -83,7 +83,7 @@
 #### Para preparar os arquivos do diretorio especifico e adiciona-los à um ponto na historia utilize o comando git add . (o . ponto serve para preparar todos os arquivos do diretorio)
 * **git add .**
 #### Para adicionar o ponto na historia basta utilizar o comando git commit -m "initial commit" (-m atalho para messeger " Entre aspas a mensagem" )
-*** git commit -m "initial commit"**
+* **git commit -m "initial commit"**
 
 #### Para ver o git log, utilize o comando git log ou git log --oneline
 * **git log**
