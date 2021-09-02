@@ -30,3 +30,11 @@
 * Você pode abrir o arquivo em conflito, onde vai mostrar a sua HEAD atual e você pode editar ou não o que você quer.
 * ou você pode abrir o arquivo no Visual Code Studio e aceitar ou recusar as alterações locais.
 * após as alterações basta fazer o **git pull** o **git push** e commitar as alterações
+
+# Caso eu queira baixar algum projeto com o repositorio completo basta
+
+**git clone + chave SSH**
+
+# Ou para copiar o repositorio para a minha conta no git
+
+**usar o fork** faz mais sentido se você quiser contribuir com o codigo
