@@ -33,8 +33,8 @@
 
 # Caso eu queira baixar algum projeto com o repositorio completo basta
 
-**git clone + chave SSH**
+* **git clone + chave SSH**
 
 # Ou para copiar o repositorio para a minha conta no git
 
-**usar o fork** faz mais sentido se você quiser contribuir com o codigo
+* **usar o fork** faz mais sentido se você quiser contribuir com o codigo
